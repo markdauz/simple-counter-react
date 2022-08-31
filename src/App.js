@@ -27,7 +27,7 @@ export default function App() {
           +
         </div>
         <div
-          onClick={() => setNumber((prev) => prev + 1)}
+          onClick={() => setNumber((prev) => prev - 1)}
           style={{
             cursor: "pointer",
             width: 20,
